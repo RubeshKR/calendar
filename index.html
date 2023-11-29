@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Vendor CSS Files -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container p-5 bg-black">
+      <div class="calendar-container bg-white shadow rounded">
+        <header
+          class="calendar-header d-flex align-items-center p-3 justify-content-between"
+        >
+          <p class="calendar-current-date fw-bold fs- m-0"></p>
+          <div class="calendar-navigation d-flex">
+            <span id="calendar-prev" class="material-symbols-rounded">
+              <i class="bx bxs-chevron-left"></i>
+            </span>
+            <span id="calendar-next" class="material-symbols-rounded">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+        </header>
+
+        <div class="calendar-body p-2 m-0">
+          <ul class="calendar-weekdays">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+          </ul>
+          <ul class="calendar-dates p-3 m-0"></ul>
+        </div>
+      </div>
+      <!-- End of MyCalendar card -->
+    </div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Template Main JS File -->
+    <!-- <script src="assets/js/main.js"></script> -->
+  </body>
+</html>
